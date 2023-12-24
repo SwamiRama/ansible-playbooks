@@ -1,6 +1,5 @@
 ---
 - hosts: "{{ target }}"
   become: yes
-  become_method: su
   roles:
     - apt_upgrade
